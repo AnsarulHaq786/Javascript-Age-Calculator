@@ -3,10 +3,7 @@
   padding: 0;
 }
 body {
-  background-image: url(backgroundImage.jpg);
-   background-size: cover;  
-height: 100vh;
-width: 100vw;
+background-image: url('backgroundImage.jpg');
 }
 
 #headings {
