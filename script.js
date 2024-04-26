@@ -37,9 +37,14 @@ function calculateAge()
         y--;
         m=11;
     }
-    output.innerHTML=`You are ${y} year ${m} month ${d} days old`;
-}
+    output.innerHTML=`You are ${y} year ${m} month ${d} days old.`;
+    output.style.color = "black";
+    output.style.fontSize = "2vw";
+    output.style.margin ="4.2vh 0px 0px 3.2vw";
+    output.style.fontFamily ="Courier New";
+    
 function getDaysInMonths(year, month)
 {
     return new Date(year, month, 0).getDate();
+}
 }
